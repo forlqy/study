@@ -1,0 +1,5 @@
+任务：
+
+实现Vec2D的流操作运算符
+friend operator<< (ostream& os, Vec2D v);
+friend operator>> (ostream& is, Vec2D v);//重载为友元函数才能使cout cin位于流运算符的左侧
